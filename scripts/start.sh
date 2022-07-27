@@ -1,3 +1,3 @@
 #!/usr/bin/env bash
 
-touch /home/ec2-user/deployed_at_`date +%Y%m%d`.txt
+touch /home/ec2-user/deployed_at_`date +%Y%m%d%H%M%S`.txt

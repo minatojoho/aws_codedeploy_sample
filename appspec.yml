@@ -1,10 +1,10 @@
 version: 0.0
 os: linux
 files:
-  - source: /appspec.yml
-    destination: /opt/appspec.yml
-  - source: /scripts/
-    destination: /opt/scripts/
+  - source: appspec.yml
+    destination: /opt/
+  - source: scripts/
+    destination: /opt/
 hooks:
   BeforeInstall:
     - location: scripts/cleanup.sh
