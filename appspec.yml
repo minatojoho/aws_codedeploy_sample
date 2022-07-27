@@ -2,6 +2,7 @@ version: 0.0
 os: linux
 files:
   - source: /
+    destination: /opt
 hooks:
   BeforeInstall:
     - location: scripts/cleanup.sh
